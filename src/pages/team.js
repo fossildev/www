@@ -4,7 +4,6 @@ import GatsbyConfig from '../../gatsby-config'
 import CustomHelmet from '../components/CustomHelmet';
 import Layout from '../components/indexLayout'
 import MemberCard from '../components/member_card'
-import Img from 'gatsby-image'
 
 function getMembers(data) {
   let members = []
