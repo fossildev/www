@@ -1,0 +1,11 @@
+.dash {
+        width: 70px;
+        height: 5px;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #E05E26, #0000);
+        background: -webkit-linear-gradient(45, #E05E26, #0000);
+        background: -moz-linear-gradient(45, #E05E26, #0000);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-self: flex-start;
+}
