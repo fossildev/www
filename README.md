@@ -1,4 +1,4 @@
-#FOSSIL SITE
+# FOSSIL SITE
 
 build with [gatsbyjs](https://www.gatsbyjs.org/)
 
