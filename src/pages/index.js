@@ -23,7 +23,7 @@ const IndexPage = props => (
             </p>
             <a
               href="about"
-              className="btn-hero-green"
+              className="btn-hero-foss"
             >
               Tentang FOSSIL
             </a>
@@ -90,7 +90,7 @@ const IndexPage = props => (
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
             </p>
-            <Link to="#" className="btn-hero-green">
+            <Link to="#" className="btn-hero-foss">
               Daftar
             </Link>
           </div>

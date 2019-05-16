@@ -1,11 +1,11 @@
-.btn-hero-green {
-    background: linear-gradient(45deg, #08D777, #E05E26);
-    background: -webkit-linear-gradient(45, #08D777, #E05E26);
-    background: -moz-linear-gradient(45, #08D777, #E05E26);
+.btn-hero-foss {
+    background: #e05e26;
+    background: #e05e26;
+    background: #e05e26;
 
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
-    -moz-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
-    box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+    -webkit-box-shadow: #e05e26;
+    -moz-box-shadow: #e05e26;
+    box-shadow: #e05e26;
 
     margin-top: 15px;
     padding: 15px 20px 15px 20px;
@@ -16,18 +16,16 @@
     transition: all 0.5s ease-in-out;
 
     &:hover {
-        background: linear-gradient(45deg, #000, #E05E26);
-        background: -webkit-linear-gradient(45, #000, #E05E26);
-        background: -moz-linear-gradient(45, #000, #E05E26);
-        -webkit-box-shadow: 0px 7px 20px 0px #000;
-        -moz-box-shadow: 0px 7px 20px 0px #000;
-        box-shadow: 0px 7px 20px 0px #000;
+        background:  #E05E26;
+        background:  #E05E26;
+        background:  #E05E26;
+       
       }
 }
 
 
 .btn-event-float {
-    @extend .btn-hero-green;
+    @extend .btn-hero-foss;
     align-self: center;
     cursor: pointer;
 }
