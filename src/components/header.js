@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
         <ul>
           <li>
             <Link to="/" exact={true} activeClassName="active">
-              Home
+              Beranda
             </Link>
           </li>
           <li>
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
           </li>
           <li>
             <Link to="/team" exact={true} activeClassName="active">
-              Team
+              Kepengurusan
             </Link>
           </li>
         </ul>
