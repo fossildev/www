@@ -4,4 +4,4 @@ build with [gatsbyjs](https://www.gatsbyjs.org/)
 
 readme coming soon.
 
-[demo](https://fossil.netlify.com)
+[demo](https://dev.fossil.or.id/)
