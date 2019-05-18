@@ -3,7 +3,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://dev.fossil.or.id">
     <img alt="Gatsby" src="src/images/logo_grad.png" width="300" />
   </a>
 </p>
@@ -43,7 +43,7 @@
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see in this project.
 
     .
     ├── node_modules
@@ -92,7 +92,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31800a31-fdea-45c7-b292-e749ae3a2c96/deploy-status)](https://app.netlify.com/sites/fossil/deploys)
 
-[demo](https://dev.fossil.or.id/)
+[Demo](https://dev.fossil.or.id/)
+
 
 <!-- AUTO-GENERATED-CONTENT:END -->
