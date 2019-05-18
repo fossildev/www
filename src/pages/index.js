@@ -61,7 +61,7 @@ const IndexPage = props => (
       <div className="container">
         <section className="hero-section3">
           <div className="hero-texts">
-            <p className="hero-header">Get Trained by Experts</p>
+            <p className="hero-header">Berlatih dan Belajar Bersama</p>
             <div className="dash" />
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

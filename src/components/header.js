@@ -1,18 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import favicon from '../images/favicon.ico'
+import logofossil from '../images/logo_grad.png'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
+
+
 
 const Header = ({ siteTitle }) => (
   <div className="nav-bar">
     <Helmet
       title={GatsbyConfig.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sahyadri Open-Source Community' },
+        { name: 'description', content: 'Open-Source Community' },
         {
           name: 'keywords',
-          content: 'Community, OpenSource, SOSC, sahyadri, student',
+          content: 'FOSSIL, FREE OPEN SOURCE SOFTWARE INTEREST LEAGUE',
         },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}
@@ -20,7 +23,8 @@ const Header = ({ siteTitle }) => (
 
     <div className="container">
       <div className="nav-items">
-        <span className="brand">{siteTitle}</span>
+        {/* <span className="brand">{siteTitle}</span> */}
+        <span className="brand"><img src={logofossil} className="logo-fossil" /></span>
         <ul>
           <li>
             <Link to="/" exact={true} activeClassName="active">
