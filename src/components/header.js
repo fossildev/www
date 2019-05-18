@@ -19,12 +19,14 @@ const Header = ({ siteTitle }) => (
         },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}
-    />
+      >
+      <html lang="en" />
+    </Helmet>
 
     <div className="container">
       <div className="nav-items">
         {/* <span className="brand">{siteTitle}</span> */}
-        <span className="brand"><img src={logofossil} className="logo-fossil" /></span>
+        <span className="brand"><img src={logofossil} alt="logo-fossil" className="logo-fossil" /></span>
         <ul>
           <li>
             <Link to="/" exact={true} activeClassName="active">

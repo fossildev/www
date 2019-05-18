@@ -12,7 +12,10 @@ const Footer = ({ siteTitle }) => (
         <div className="column">
           <p>
             <strong>FOSSIL AMIKOM</strong><br/>
-            RingRoad<br/><br/>
+            Gedung BSC Universitas Amikom<br/>
+            Condongcatur, Depok, Sleman,<br/>
+            Special Region of Yogyakarta. <br/>
+            55281<br/><br/>
             fossil@amikom.ac.id<br/>
           </p>
         </div>
