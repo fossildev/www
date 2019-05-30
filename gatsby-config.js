@@ -10,6 +10,10 @@ module.exports = {
       title: 'FOSSIL - Team',
       siteUrl: 'https://fossil.or.id/team',
     },
+    about: {
+      title: 'FOSSIL - About',
+      siteUrl: 'https://fossil.or.id/team',
+    },
     blog: {
       title: 'FOSSIL - Blog',
       siteUrl: 'https://fossil.or.id/blog',

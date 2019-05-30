@@ -5,6 +5,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   const blogTemplate = path.resolve('src/templates/blog.js')
   const eventTemplate = path.resolve('src/templates/event.js')
+  const aboutTemplate = path.resolve('src/templates/about.js')
 
   return graphql(
     `
@@ -40,6 +41,12 @@ exports.createPages = ({ actions, graphql }) => {
           createPage({
             path: slug,
             component: eventTemplate,
+          })
+        }
+        else if (slug.includes(`/about/`)) {
+          createPage({
+            path: slug,
+            component: aboutTemplate,
           })
         }
       }

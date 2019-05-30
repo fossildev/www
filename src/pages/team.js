@@ -5,23 +5,23 @@ import CustomHelmet from '../components/CustomHelmet';
 import Layout from '../components/indexLayout'
 import MemberCard from '../components/member_card'
 
-function getMembers(data) {
-  let members = []
+// function getMembers(data) {
+//   let members = []
 
-  let memberList = data.allMarkdownRemark.edges
+//   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
-    return members.push(
-      <MemberCard
-        username={element.node.frontmatter.username}
-        full_name={element.node.frontmatter.name}
-        designation={element.node.frontmatter.designation}
-      />
-    )
-  })
+//   memberList.map(element => {
+//     return members.push(
+//       <MemberCard
+//         username={element.node.frontmatter.username}
+//         full_name={element.node.frontmatter.name}
+//         designation={element.node.frontmatter.designation}
+//       />
+//     )
+//   })
 
-  return members
-}
+//   return members
+// }
 
 const TeamsPage = ({ data }) => (
   <Layout>
