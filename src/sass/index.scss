@@ -1,8 +1,9 @@
 @import 'components/components';
 @import 'partials/base';
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 
 // $font : 'Varela Round';
-$font : 'Arial';
+$font : 'Heebo';
 
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
