@@ -28,23 +28,160 @@ const TeamsPage = ({ data }) => (
     <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
     <div className="page">
       <div className="container">
-        <h2>Co-ordinators</h2>
+        <h1>Kepengurusan FOSSIL 2018-2019</h1>
+        {/* Pengurus Inti */}
+        <h2>Pengurus Inti</h2>
         <div className="team-section">
-          {/* Card for coordinators */}
-           
           <MemberCard
             username="restuhaqza"
             full_name="Restu Haqza"
-            designation="Regional Coordinator"
+            designation="Ketua"
           />
           <MemberCard
             username="edytk"
-            full_name="Edy Tama Kusumajaya"
-            designation="Regional Coordinator"
+            full_name="Nama Anggota"
+            designation="Wakil Ketua"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Bendahara 1"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Bendahara 2"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Sekretaris 1"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Sekretaris 2"
           />
         </div>
-        <h2>Core Members</h2>
-        <div className="team-section">{getMembers(data)}</div>
+         {/* Keilmuan */}
+         <h2>Keilmuan</h2>
+         <div className="team-section">
+          <MemberCard
+            username="restuhaqza"
+            full_name="Restu Haqza"
+            designation="Ketua"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keilmuan"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keilmuan"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keilmuan"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keilmuan"
+          />
+        </div>
+         {/* RnD */}
+         <h2>Research &amp; Development</h2>
+         <div className="team-section">
+          <MemberCard
+            username="restuhaqza"
+            full_name="Restu Haqza"
+            designation="Ketua"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota RnD"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota RnD"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota RnD"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota RnD"
+          />
+        </div>
+          {/* Humas */}
+         <h2>Humas</h2>
+         <div className="team-section">
+         <MemberCard
+            username="restuhaqza"
+            full_name="Restu Haqza"
+            designation="Ketua"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Humas"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Humas"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Humas"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Humas"
+          />
+        </div>
+          {/* Keorganisasian */}
+         <h2>Keorganisasian</h2>
+         <div className="team-section">
+         <MemberCard
+            username="restuhaqza"
+            full_name="Restu Haqza"
+            designation="Ketua"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keorganisasian"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keorganisasian"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keorganisasian"
+          />
+          <MemberCard
+            username="edytk"
+            full_name="Nama Anggota"
+            designation="Anggota Keorganisasian"
+          />
+        </div>
+
+        {/* <h2>-</h2>
+        <div className="team-section">{getMembers(data)}</div> */}
       </div>
     </div>
   </Layout>
