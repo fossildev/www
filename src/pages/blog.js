@@ -18,6 +18,7 @@ const BlogsPage = ({ data }) => (
   <Layout>
     <div className="page">
       <div className="container">
+        <div className="title-page">Berita Tentang FOSSIL dan Open Source</div>
         <section className="blog-section">
           <div className="blog-posts">{getBlogs(data)}</div>
           {/*

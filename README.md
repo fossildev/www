@@ -96,7 +96,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [Demo](https://dev.fossil.or.id/)
 
-## 🔥 Google Web Dev Measure
+## 🔥 Lighthouse Score
 
 
 <a href="https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://dev.fossil.or.id/

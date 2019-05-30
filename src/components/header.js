@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
           </li>
           <li>
             <Link to="/blog" exact={true} activeClassName="active">
-              Blogs
+              Blog
             </Link>
           </li>
           <li>

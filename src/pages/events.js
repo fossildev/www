@@ -27,6 +27,7 @@ const EventsPage = ({ data }) => (
     <CustomHelmet page={GatsbyConfig.siteMetadata.events} />
     <div className="page">
       <div className="container">
+      <div className="title-page">Event FOSSIL dan Open Source</div>
         <div className="event-card-container">{getEvents(data)}</div>
       </div>
     </div>

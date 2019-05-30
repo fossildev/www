@@ -28,7 +28,7 @@ const TeamsPage = ({ data }) => (
     <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
     <div className="page">
       <div className="container">
-        <h1>Kepengurusan FOSSIL 2018-2019</h1>
+      <div className="title-page">Kepengurusan FOSSIL 2018/2019</div>
         {/* Pengurus Inti */}
         <h2>Pengurus Inti</h2>
         <div className="team-section">
