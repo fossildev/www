@@ -19,7 +19,7 @@ const IndexPage = props => (
               Free Open Source Software Interest League
             </p>
             <p>
-            Sebuah komunitas yang digerakkan oleh para penggemar teknologi dan kontributor open-source, untuk membantu mahasiswa menjadi bagian dari ekosistem open-source dengan menyediakan pelatihan dan pengembangan keterampilan.
+            Sebuah UKM Universitas AMIKOM Yogyakarta yang digerakkan oleh para penggemar teknologi dan kontributor open-source, untuk membantu mahasiswa menjadi bagian dari ekosistem open-source dengan menyediakan pelatihan dan pengembangan keterampilan. 
             </p>
             <a
               href="about"
@@ -43,7 +43,7 @@ const IndexPage = props => (
             <p className="hero-header">Divisi Server</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            Divisi yang berfokus mempelajari kegunaan dan manfaat open source (Linux) dibidang server, mempelajari web server.
             </p>
            
           </div>
@@ -51,7 +51,7 @@ const IndexPage = props => (
             <p className="hero-header">Divisi Fundamental</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            Divisi yang berfokus mempelajari fundamental dari sistem operasi linux dan juga mempelajari bash scripting.
             </p>
            
           </div>
@@ -64,7 +64,8 @@ const IndexPage = props => (
             <p className="hero-header">Berlatih dan Belajar Bersama</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            Pelatihan diadakan setiap minggu dan dipandu oleh teman-teman dari pengurus FOSSIL. Pantau sosial media FOSSIL untuk info lebih lanjut.
+
             </p>
           </div>
           <Img
@@ -87,7 +88,7 @@ const IndexPage = props => (
             <p className="hero-header">Bergabung dengan Kami !</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            Ayoo bergabung dengan kami dan belajar bersama tentang open-source di FOSSIL. Pendaftaran dibuka saat EXPO Universitas AMIKOM Yogyakarta 2020.
 
             </p>
             <Link to="#" className="btn-hero-foss">
