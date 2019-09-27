@@ -101,8 +101,8 @@ const TeamsPage = ({ data }) => (
             designation="Ketua"
           />
           <MemberCard
-            username="edytk"
-            full_name="Nama Anggota"
+            username="piharpi"
+            full_name="Mahendrata Harpi"
             designation="Anggota RnD"
           />
           <MemberCard
