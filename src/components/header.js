@@ -43,11 +43,11 @@ const Header = ({ siteTitle }) => (
               Blog
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/team" exact={true} activeClassName="active">
               Kepengurusan
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
