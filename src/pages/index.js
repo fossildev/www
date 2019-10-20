@@ -113,18 +113,19 @@ const IndexPage = props => {
         </div>
       </div>
       <Modal open={isModal} onClose={() => setModal(false)}>
-        <iframe
+          <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScE377OaS_J8d3ltEpC7cRkZm0OiZeBt0YjvmRfKlvWViUgIQ/viewform?embedded=true"
           frameborder="0"
           style={{
-            minWidth: '640px',
+            minWidth: '540px',
             minHeight: '500px',
-            maxWidth: '768px',
-            maxHeight: '640px',
+            maxWidth: '100%',
+            maxHeight: '100%',
           }}
-        >
-          Memuat…
+        > Memuat…
         </iframe>
+        
+         
       </Modal>
     </Layout>
   )

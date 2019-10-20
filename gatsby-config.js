@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'FOSSIL',
+    title: 'FOSSIL - Open Source Community',
     siteUrl: 'https://fossil.or.id',
     events: {
       title: 'FOSSIL - Events',

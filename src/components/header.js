@@ -43,12 +43,16 @@ const Header = ({ siteTitle }) => (
               Blog
             </Link>
           </li>
+          <li>
+            <a href="https://join.fossil.or.id" ><strong>Bergabung</strong></a>
+          </li>
           {/* <li>
             <Link to="/team" exact={true} activeClassName="active">
               Kepengurusan
             </Link>
           </li> */}
         </ul>
+        
       </div>
     </div>
   </div>
