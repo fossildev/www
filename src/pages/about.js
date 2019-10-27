@@ -19,10 +19,8 @@ const AboutPage = props => (
               Free Open Source Software Interest League
             </p>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            FOSSIL (Free Open Source Software Interest League) adalah sebuah komunitas Open Source yang berada di Universitas AMIKOM Yogyakarta. Komunitas ini berdiri atas kesadaran sekumpulan mahasiswa akan pentingnya kontribusi serta kebutuhan Proyek Open Source dilingkungan kampus dan masyarakat. Maka dari itu, FOSSIL hadir untuk menjadi wadah untuk keresahan tersebut. <br></br><br></br>
+            Kegiatan kami meliputi sharing session, bootcamp, riset, dan pengabdian masyarakat. untuk info lebih lanjut bisa hubungi <a href="mailto:fossil@amikom.ac.id">fossil@amikom.ac.id</a> 
             </p>
            
           </div>
