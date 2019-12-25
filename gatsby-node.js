@@ -1,16 +1,5 @@
 const path = require('path')
 
-// Implement the Gatsby API “onCreatePage”. This is
-// called after every page is created.
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage } = actions
-  // TODO (prksu): Make better regex rather than this
-  if (page.path.match(/^\/goimport/)) {
-    page.matchPath = "/goimport/*"
-    createPage(page)
-  }
-}
-
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
