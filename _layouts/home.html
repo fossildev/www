@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+  <p class="home--introduction">
+    <span class="fossil">FOSS<span class="il">IL</span></span> (Free Open Source Software Interest League) sebuah UKM yang berfokus pada bidang Open Source yang berada di Universitas AMIKOM Yogyakarta. <br><br> Follow us on
+    <a href="https://github.com/fossildev" target="_blank" rel="noopener">[GitHub]</a> 
+    <a href="https://instagram.com/fossilamikom" target="_blank" rel="noopener">[Instagram]</a>
+  </p>
+
+  <!-- <h2>Repositories</h2>
+  <ul>
+    <li><a href="https://github.com/fossildev/ghost-operator">Ghost Operator [ACTIVE]</a></li>
+    <li><a href="https://github.com/fossildev/ghost-operator">Amigos [ACTIVE]</a></li>
+    <li><a href="https://github.com/fossildev/ghost-operator">Forem [ACTIVE]</a></li>
+  </ul> -->
+
+  {% for post in site.posts  %}
+    {% capture this_month %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_month %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <h2 class="period-time" id="{{ this_month }}-ref">{{this_month}}</h2>
+    <ul>
+    {% endif %}
+
+    <li><a class="p-title" href="{{ post.url }}">{{ post.title }}</a> <br></li>
+
+    {% if forloop.last %}
+    </ul>
+    {% else %}
+        {% if this_month != next_month %}
+        </ul>
+        <h2 class="period-time"  id="{{ next_month }}-ref">{{next_month}}</h2>
+        <ul>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+# In Open Source We Trust
+
+</div>

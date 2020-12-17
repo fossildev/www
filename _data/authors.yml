@@ -1,0 +1,37 @@
+# Jika belum terdaftar silahkan menambahkan data kamu
+# sesuai dengan format dibawah ini.
+#
+# username:
+#   name: Nama Kamu [wajib]
+#   bio: cerita singkat dirimu [wajib]
+#   twitter: usernameTwitterMu [opsional]
+#   github: usernameGithubMu [wajib]
+#   url: https://website.kamu [opsional]
+
+piharpi:
+  name: Mahendrata Harpi
+  bio: Seorang mahasiswa yang sedang menempuh pendidikan 🎒 di Jogjakarta.
+  twitter: mhdrt_ 
+  github: piharpi
+  url: https://harpi.rocks
+
+ammarfaizi2:
+  name: Ammar Faizi
+  bio: I am a beginner mathematician, currently studying Japanese and Computer Science.
+  twitter: ammarfaizi2
+  github: ammarfaizi2
+  url: 
+
+edytk:
+  name: Edy Tama Kusumajaya
+  bio: 👾 stay foolish
+  twitter: edytk
+  github: edytk
+  url: https://et.mk
+
+needkopi:
+  name: Chandra Agung Rizky
+  bio: nothing
+  twitter: needkopi
+  github: needkopi
+  url:

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post-meta">
+      {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+      ~
+      {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+      <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+        {{ mdate | date: date_format }}
+      </time>
+      {%- endif -%}
+      {%- if page.author -%}
+      ~ {% for author in page.author %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">@{{ author }}</span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}</p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+    <p class="reading-time" title="Estimated read time">Read in&nbsp;
+      {%- assign words = content | number_of_words -%}
+      {%- if words < 360 -%}
+        1 minute
+      {%- else -%}
+        {{ words | divided_by:180 }} minutes
+      {%- endif -%}
+    </p>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="post-author">
+    {% assign author = site.data.authors[page.author] %}
+    <img class="post-author-avatar" src="https://avatars0.githubusercontent.com/{{author.github}}?v=3&s=80" alt="{{ author.name }}" data-author="{{ author.github }}">
+    <div class="post-author-info">
+      <h4 class="post-author-name">
+        {{ author.name }}
+      </h4>
+      <p class="post-author-bio">{{ author.bio }}</p>
+      <p class="post-author-links">
+        <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener noreferrer">twitter</a> |
+        <a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer">github</a> |
+        <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">site</a>
+      </p>
+    </div>
+  </div>
+<!-- selaksa -->
+
+  {%- if site.disqus.shortname -%}
+    {%- include comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
