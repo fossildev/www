@@ -10,7 +10,7 @@ Komunitas ini berdiri atas kesadaran sekumpulan mahasiswa akan pentingnya kontri
 Open Source di lingkungan kampus dan masyarakat. Maka dari itu, FOSSIL hadir untuk menjadi wadah untuk keresahan tersebut.
 
 Kegiatan kami meliputi sharing session, workshop, riset, dan pengabdian masyarakat. 
-untuk kerjasama ataupun inquiries [contact@fossil.or.id][email]
+untuk kerjasama ataupun inquiries [humas@fossil.or.id][email]
 
 [github]: https://github.com/fossildev
-[email]: mailto:contact@fossil.or.id
+[email]: mailto:humas@fossil.or.id
