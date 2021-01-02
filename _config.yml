@@ -8,6 +8,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inspiring-banach-a0c406.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 disqus: 
   shortname: fossil
+oprec:
+  is_open: false
+  years: "2020/2021"
+  link: "https://expoamikom.com/Ukm/detail/40"
 
 # Information
 email: contact@fossil.or.id
