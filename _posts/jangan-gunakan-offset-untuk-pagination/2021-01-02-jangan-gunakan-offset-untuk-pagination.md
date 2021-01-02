@@ -1,7 +1,14 @@
-| title                                  | date       | modified | author   | editor   | tags                 | description | image |
-| -------------------------------------- | ---------- | -------- | -------- | -------- | -------------------- | ----------- | ----- |
-| Jangan gunakan offset untuk pagination | 2021-01-02 |          | needkopi | needkopi | sql, offset, postgre |             |       |
-
+---
+title: Jangan gunakan offset untuk pagination 
+date:  2021-01-02
+modified: 
+author: needkopi # penuilis [wajib]
+editor: needkopi # penyunting [opsional]
+tags: [postgres, sql, offset, query]
+image: 
+description: 
+comments: false
+---
 
 
 Terkadang pagination yang kita buat memiliki response yang lambat ketika data yang tersimpan di database sudah semakin banyak. Bila kasus seperti ini terjadi munkin artikel ini cocok untuk anda.
