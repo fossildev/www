@@ -8,9 +8,11 @@
 {%- include head.html -%}
 
 <body>
+  {%- if site.oprec.is_open -%}
   <div class="notification">
-    🎉 <b>Duaarrr!</b> Daftar menjadi member FOSSIL 2020/2021 bangun karya bersama FOSSIL. <a target="_blank" href="https://expoamikom.com/Ukm/detail/40" rel="noopener noreferrer">Gass keen ⟶</a>
+    🎉 <b>Duaarrr!</b> Daftar menjadi member FOSSIL {{ site.oprec.years }} bangun karya bersama FOSSIL. <a target="_blank" href="{{ site.oprec.link }}" rel="noopener noreferrer">Gass keen ⟶</a>
   </div>
+  {%- endif -%}
   {%- include navbar.html -%}
   <div class="wrapper">
     <main class="page-content" aria-label="Content">
