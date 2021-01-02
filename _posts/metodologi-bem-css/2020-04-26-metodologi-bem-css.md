@@ -10,7 +10,7 @@ tag:
   - css
   - frontend
   - cleancode
-image: /metodologi-bem-css/ilustrasi-bem-css.png
+image: metodologi-bem-css/ilustrasi-bem-css.png
 ---
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.

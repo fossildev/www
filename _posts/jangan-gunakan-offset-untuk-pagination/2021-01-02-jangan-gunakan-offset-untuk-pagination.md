@@ -5,7 +5,7 @@ modified:
 author: needkopi # penuilis [wajib]
 editor: piharpi # penyunting [opsional]
 tags: [postgres, sql, offset, query]
-image: /jangan-gunakan-offset-untuk-pagination/gambar1.png
+image: jangan-gunakan-offset-untuk-pagination/gambar1.png
 description: Terkadang pagination yang kita buat memiliki response yang lambat ketika data yang tersimpan di database sudah semakin banyak. Bila kasus seperti ini terjadi mungkin artikel ini cocok untuk anda.
 comments: false
 ---
