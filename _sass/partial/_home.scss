@@ -1,0 +1,39 @@
+.home--introduction {
+  // font-size: 60px;
+  // font-family: 'Times New Roman';
+  // line-height: 1.5;
+  // color: white;
+  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  // font-weight: 600;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.period-time {
+  font-size: 16px;
+  // background: red;
+  // color: white;
+  // padding: 5px 15px;
+  font-family: var(--serif);
+  display: inline-block;
+  // margin-bottom: 15px;
+}
+
+.p-title {
+  font-size: 17px;
+  color: black;
+  // font-weight: bold;
+  // line-height: 1.2;
+  // color: var(--index-title-color);
+  // text-decoration: none;
+}
+
+.fossil {
+  font-family: var(--monospace);
+  font-weight: bold;
+  color: #000;
+  .il {
+    color: #FC832D;
+  }
+}

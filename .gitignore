@@ -1,13 +1,7 @@
-# Project dependencies
-.cache
-node_modules
-yarn-error.log
-
-# Build directory
-/public
-.DS_Store
-
-# IDE preferences
-.vscode
-
-.github
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_drafts
+klise-*.gem
+Gemfile.lock
