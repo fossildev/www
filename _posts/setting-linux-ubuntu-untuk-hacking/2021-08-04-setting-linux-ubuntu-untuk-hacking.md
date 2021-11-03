@@ -6,12 +6,12 @@ author: suyab # penuilis [wajib]
 editor: suyab # penyunting [opsional]
 tags: [ubuntu, hacking]
 description: Hallo, kembali lagi bersama saya Bayu Aji pada artikel kali ini saya akan membahas distro linux ubuntu, yap pasti dari diri Anda sudah mengetahui apa itu ubuntu. Menurut saya pada dasarnya distro linux apa pun bisa digunakan untuk hacking, tetapi jika ingin yang spesifik Anda dapat menggunakan kali, parot os atau yang lainya. Okok kali ini saya membahas cara mensetting linux ubuntu untuk hacking, ubuntu adalah distro turunan debian yang bisa mengatur sistem operasi secara ringan, linux ubuntu bisa dikatakan mirip seperti windows, penggunaan cukup mudah dan ui yang menarik, penginstalan mudah dan cocok untuk programming, bermain game ringan, untuk hacking dan lainya. Untuk Anda ini sangat cocok jika ingin menggunakan sistem operasi yang gratis dan juga yahut
-image: "Setting-linux-ubuntu-untuk-hacking/thumb.jpg"
+image: "setting-linux-ubuntu-untuk-hacking/thumb.jpg"
 ---
 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/thumb.jpg" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/thumb.jpg" alt="ubuntu">
 <figcaption>Settup ubuntu untuk hacking</figcaption>
 </figure>
 
@@ -40,14 +40,14 @@ Anda dapat mendownload terlebih dahulu, persiapkan folder atau tempat penyimapan
 Selanjutnya tunggu proses hingga selesai, jika sudah selsai maka akan tersimpan pada folder yang sudah Anda setting sebelumnya, Anda dapat melihat foto di bawah ini 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/1.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/1.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
 Kemudian Anda buka terminal, masuk ke dalam direktori penyimpanan katooline, gunakan perintah cd untuk masuk ke dalam direktori, Anda dapat melihat gambar berikut ini 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/2.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/2.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
@@ -58,14 +58,14 @@ chmod +x ./install.sh
 sudo ./install.sh
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/3.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/3.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
 Pada proses ini Anda dapat ditinggal atau menunggu sambil Anda melakukan pekerjaan, setelah install sudah  selesai, Anda dapat menggunakan katooline dengan cara seperti ini 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/4.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/4.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
@@ -77,21 +77,21 @@ Okok lanjut, setelah masuk ke dalam menu katooline, Anda dapat memilih tools apa
 Selanjutnya setelah proses pengunduhan selesai Anda dapat melihat atau mengecek list apa saja tools yang sudah terinstall, dengan cara pilih nomor 4, Anda dapat melihat gambar berikut ini 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/5.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/5.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
 Langkah terakhir, Anda dapat menginstall kali menu, untuk cara ini akan otomatis terkonfigurasi jadi Anda tinggal duduk manis hingga proses ini selesai, setelah proses ini selesai, Anda dapat membuka activity atau menu kemudian Anda akan menemukan beberapa tools yang sudah terinstall, berikut adalah hasil nya 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/6.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/6.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 
 Tara, tools sudah berhasil terinstall, sekarang Anda bisa mengetest nya, sebagai contoh saya akan mengetest metasploit, cara nya Anda buka terminal kemudian sudo su untuk masuk ke dalam akases root, setelah itu ketik perintah msfconsole 
 
 <figure>
-<img src="/Setting-linux-ubuntu-untuk-hacking/7.png" alt="ubuntu">
+<img src="/setting-linux-ubuntu-untuk-hacking/7.png" alt="ubuntu">
 <figcaption>katooline</figcaption>
 </figure>
 

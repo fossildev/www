@@ -5,16 +5,13 @@ modified: 2021-09-22 12:28:47 +07:00
 author: Jieyab89 # penuilis [wajib]
 editor: Jieyab89 # penyunting [opsional]
 tags: [laravel, php]
-
-description: Apa itu laravel?
-Laravel adalah sebuah framework php yang bersifat open source, laravel didirikan oleh Taylor Otwell. Saat ini laravel sudah mencapai versi 8, versi ini adalah versi terbaru di laravel
-
-image: "Laravel-7-fundamental/1.png"
+description: "Apa itu laravel? Laravel adalah sebuah framework php yang bersifat open source, laravel didirikan oleh Taylor Otwell. Saat ini laravel sudah mencapai versi 8, versi ini adalah versi terbaru di laravel"
+image: "laravel-7-fundamental/1.png"
 ---
 
 
 <figure>
-<img src="/Laravel-7-fundamental/1.png" alt="laravel">
+<img src="/laravel-7-fundamental/1.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -41,7 +38,7 @@ Tahap selanjutnya akan dibahas pada part 2, silahkan bisa tunggu artikel terbaru
 Laravel adalah sebuah framework php yang bersifat open source, laravel didirikan oleh Taylor Otwell. Saat ini laravel sudah mencapai versi 8, versi ini adalah versi terbaru di laravel
 
 <figure>
-<img src="/Laravel-7-fundamental/1.png" alt="laravel">
+<img src="/laravel-7-fundamental/1.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -97,7 +94,7 @@ misal : csrf, auth, dll
 Contoh penggunaan middleware
 
 <figure>
-<img src="/Laravel-7-fundamental/2.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/2.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -109,7 +106,7 @@ Di dalam gambar tesebut maksudnya, ketika kalian ingin mengunjugi halaman atau m
 2. Config
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar5.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar5.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -119,7 +116,7 @@ Di dalam path config, kalian perlu memahami satu hal yang berperan penting dalam
 3. Database
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar6.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar6.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -130,19 +127,17 @@ Database seeder adalah, sebuah sample data pada database, jadi kita tidak usah m
 
 contoh :
 
->public function run()
->
->{
->
->table_name::create([
->
->
->'colomn_1' => 'isi atau konten',
->'colomn_2' => 'isi atau konten',
-        ]);
->
->}
->
+```php
+public function run()
+{
+
+  table_name::create([
+    'colomn_1' => 'isi atau konten',
+    'colomn_2' => 'isi atau konten',
+  ]);
+}
+```
+
 
 For your information, di dalam laravel kalian akan menggunakan ORM atau Eloquent  apa itu?
 
@@ -151,14 +146,14 @@ Orm atau  Eloquent, untuk mempermudah mengelola query sql bisa dikatakan mempers
 Contoh
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture2.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture2.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 4. Public
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar7.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar7.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -167,13 +162,11 @@ Kalian dapat menyimpan file css atau assets (default) di dalam path ini dan juga
 5. Views
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar8.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar8.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Di dalam path ini, kalian akan menyimpan berupa file halaman website atau frontend, misalnya form, haeader, footer dan lainya, di laravel kalian menggunakan blade template engine, fungsi blade ini akan mempersingkat syntax php dan membuat code menjadi clean sebagai contoh  :
-
-
 
 @php  @endphp, @if @endif, @foreach @endforeach   
 
@@ -181,21 +174,16 @@ Di dalam path ini, kalian akan menyimpan berupa file halaman website atau fronte
 6. Routes
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar9.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar9.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
-Routes, adalah untuk mengatur jalanya sebuah url, misal / menuju ke halaman index. /about menampilkan halaman about dan lain sebagainya
+Routes, adalah untuk mengatur jalanya sebuah url, misal / menuju ke halaman index. /about menampilkan halaman about dan lain sebagainya contoh penggunaan routes
 
-
-
-contoh penggunaan routes
-
+```php
 Route::method(‘url’, ‘namacontroller@namafunction’)->name(‘insial route name’);
-
 Route::get('/', 'namacontroller@function')->name('index');
-
-
+```
 
 Adapun beberapa method untuk route, seperti get, post, put, delete dan lainya
 
@@ -210,7 +198,7 @@ php artisan storage:link
 8. Tests
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar10.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar10.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -218,7 +206,7 @@ Di path ini, berfungsi untuk unit testing pada laravel, ini biasanya digunakan u
 
 9. Vendor
 <figure>
-<img src="/Laravel-7-fundamental/Gambar11.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar11.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -226,7 +214,7 @@ Di path ini berisikan library, package yang kalian gunakan, laravel sudah mengin
 
 10. env
 <figure>
-<img src="/Laravel-7-fundamental/Gambar12.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar12.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -329,14 +317,14 @@ A. Proses penginstalan
 1. Buka terminal, kemudian masuk ke dalam path htdocs
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar13.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar13.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 2. kemudian ketik “composer create-project --prefer-dist laravel/laravel:^7.0 project”
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar14.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar14.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -349,35 +337,31 @@ B. Proses konfigurasi
 3. Akses url, copykan hasil di terminal kemudian masukan ke dalam browser atau mesin pencari
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture3.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture3.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Setting .env
 <figure>
-<img src="/Laravel-7-fundamental/Capture4.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture4.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Silahkan konfigurasi .env kemudian setting bagian nama database, username database, serta password database, unruk line 16 sampai akhir nanti akan dibahas, untuk materi ini cukup mempelajari dasar nya dahulu, contoh konfigurasi database di dalam .env
 
->DB_CONNECTION=mysql
->
->DB_HOST=127.0.0.1
->
->DB_PORT=3306
->
->DB_DATABASE= namadb kalian
->
->DB_USERNAME= username db kalian
->
->DB_PASSWORD= pass db kalian
->
+```yml
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE= namadb kalian
+DB_USERNAME= username db kalian
+DB_PASSWORD= pass db kalian
+```
 
 C. Membuat database
 
 <figure>
-<img src="/Laravel-7-fundamental/Gambar15.png" alt="laravel">
+<img src="/laravel-7-fundamental/Gambar15.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -386,17 +370,15 @@ Buatlah database yang sudah kalian setting di dalam .env pastikan nama database 
 contoh
 
 Nama database "sinaudb" Pastikan nama database sama dengan yang ada di .env  
->DB_CONNECTION=mysql
->
->DB_HOST=127.0.0.1
->
->DB_PORT=3306
->
->DB_DATABASE= sinaudb
->
->DB_USERNAME=root
->
->DB_PASSWORD= root56
+
+```yml
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE= sinaudb
+DB_USERNAME=root
+DB_PASSWORD= root56
+```
 
 C. Install library auth laravel
 
@@ -410,7 +392,7 @@ Jika langsung menggunakan composer require laravel/ui akan terjadi eror, kenapa 
 Kasus ini kita menggunakan laravel auth bootsrap, jika ingin menggunkan vue, react juga bisa . Sesuaikan kebutuhan kalian sendiri
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture5.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture5.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -425,12 +407,12 @@ D. Migrating database
 2. Setelah itu jalankan perintah php artisan migrate, untuk membuat table, kolom yang ada di dalam path database
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture6.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture6.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture7.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture7.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -439,7 +421,7 @@ D. Migrating database
 4. Jalankan perintah php artisan serve
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture8.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture8.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -447,12 +429,12 @@ D. Migrating database
 E. Tahap pengujian
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture9.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture9.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture10.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture10.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -468,25 +450,20 @@ Singkatnya Orm atau elquent, untuk mempermudah mengelola query sql bisa dikataka
 **Contoh Eloquent**
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture11.png" alt="laravel">
+<img src="/laravel-7-fundamental/Capture11.png" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
->Fungsi first()
->
->$user = User::first();
->
->Fungsi ini akan menampilkan data yang pertama pada table user
->
->$user = User::paginate(10);
->
->Fungsi ini adalah membuat pagination dengan limit data yang ditampilkan >adalah 10
->
->$user = User::find($id);
->
->Fungsi ini adalah untuk memasukan data berdasarkan id di dalam table user
-
-Eloquentt lebih lengkap : https://laravel.com/docs/7.x/eloquent
+```php
+// Fungsi first()
+$user = User::first();
+// Fungsi ini akan menampilkan data yang pertama pada table user
+$user = User::paginate(10);
+// Fungsi ini adalah membuat pagination dengan limit data yang ditampilkan >adalah 10
+$user = User::find($id);
+// Fungsi ini adalah untuk memasukan data berdasarkan id di dalam table user
+// Eloquentt lebih lengkap : https://laravel.com/docs/7.x/eloquent
+```
 
 **Membuat form upload by user id**
 
@@ -501,32 +478,34 @@ NB : Pastikan membuat table tambahkan s di belakangnya sebagai contoh posts. Lar
 Kemudian buka file database yang sudah dibuat tadi
 
 <figure>
-<img src="/Laravel-7-fundamental/13.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/13.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Ini berfungsi untuk membuat table dengan field yang sudah kita tentukan, sebagai contoh
 
+```php
 public function up()
-    {
+{
 
-      Schema::create('posts', function (Blueprint $table)
-      {
-  			$table->id();
-  			$table->string('title');
-  			$table->foreignId('user_id');
-  			$table->text('content');
-        $table->string('photo');
-  			$table->timestamps();
-		  });
+  Schema::create('posts', function (Blueprint $table)
+  {
+    $table->id();
+    $table->string('title');
+    $table->foreignId('user_id');
+    $table->text('content');
+    $table->string('photo');
+    $table->timestamps();
+  });
 
-      Schema::table('posts', function (Blueprint $table)
-      {
-			  $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-                            //untuk relasi antar table, table post akan berelasi dengan table users dengan kolom                                      user_id dengan kolom id yang ada di table users
-		  });
+  Schema::table('posts', function (Blueprint $table)
+  {
+    $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+                        //untuk relasi antar table, table post akan berelasi dengan table users dengan kolom                                      user_id dengan kolom id yang ada di table users
+  });
 
-    }
+}
+```
 
 
 Setelah membuat, kalian dapat jalankan perintah
@@ -537,7 +516,7 @@ Setelah membuat, kalian dapat jalankan perintah
 Untuk migrasi ke dalam database, kalian dapat melihat foto di bawah ini
 
 <figure>
-<img src="/Laravel-7-fundamental/16.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/16.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -546,25 +525,23 @@ Untuk migrasi ke dalam database, kalian dapat melihat foto di bawah ini
 Untuk selanjutnya, kita membuat model post dengan perintah di atas, setelah terbuat kalian bisa buka file tersebut di dalam path app
 
 <figure>
-<img src="/Laravel-7-fundamental/17.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/17.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Fungsi dari model ini adalah, untuk membuat atau megelola input atau insert pada database, pada kode di atas kolom yang sudah terbuat array yang nanti nya akan diisi dari user
 
->protected $fillable = [
->
->		'user_id', 'title', 'slug', 'content', 'photo'
->
->	];
->
-> public function user()
->
->    {
->
->     return $this->belongsTo(User::class);
->    }
->
+```php
+protected $fillable = [
+		'user_id', 'title', 'slug', 'content', 'photo'
+];
+
+public function user()
+{
+  return $this->belongsTo(User::class);
+}
+```
+
 
 Fungsi user untuk relasi table post dan user
 
@@ -574,23 +551,23 @@ Fungsi user untuk relasi table post dan user
 Ketik dan jalankan perintah tersebut, fungsi perintah di atas adalah untuk membuat controller dengan nama menu, setelah itu kalian bisa cek di dalam path controller
 
 <figure>
-<img src="/Laravel-7-fundamental/Capture11.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/Capture11.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Di dalam kode di atas, kita akan menggunakan model User dan Post kemudian beberapa library dari laravel seperti request dan auth. Lalu di function index berfungsi mengabil data dari table post
 
+```php
+$feed = Post::get(); //mengambil seluruh data dari table post
 
->$feed = Post::get(); //mengambil seluruh data dari table post
->
->return view('index', compact('feed')); //menampilkan halaman index dan
->membawa parameter feed
-
+return view('index', compact('feed')); //menampilkan halaman index dan
+membawa parameter feed
+```
 
 Berikut adalah file index.blade.php
 
 <figure>
-<img src="/Laravel-7-fundamental/12.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/12.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -601,7 +578,7 @@ Buatlah controller dengan nama admincontroller, yang disni akan berfungsi untuk 
 Jalankan perintah di atas, kemudian kita buka dan tambahkan struktur kode untuk mengelola data masuk, edit, hapus dan lainya
 
 <figure>
-<img src="/Laravel-7-fundamental/18.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/18.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
@@ -612,152 +589,107 @@ Scrool ke bawah cari function store dan create kemduian tambahkan kode berikut i
 
 
 <figure>
-<img src="/Laravel-7-fundamental/19.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/19.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
->public function __construct()
->
->    {
->
->      $this->middleware('auth');
->
->    }
->
->  public function create()
->
->    {
->
->      return view('post');
->
->    }
->
->public function store(Request $request)
->
->    {
->
->      $validatedData = $request->validate
->
->     ([
->  			'title' => 'required|max:225',
->
-> 			'content' => 'required',
->
->           'photo' => 'image|mimes:jpeg,png,jpg,gif|max:5408',
->
->		  ]);
->
->  		$id = Auth::user()->id;
->  		
->  		$user = User::find($id);
->  		
->  		$content = $request->content;
->  		
->		  $photo = $request->file('photo');
->		  
->		  $nama_file = time()."_".$photo->getClientOriginalName();
->		  
->		  $tujuan_upload = 'feed';
->		  
->		  $photo->move($tujuan_upload,$nama_file);
->		  
-> 		Post::create
->  		
->      ([
->      
->  			'user_id' => $id,
->  			
->  			'title' => $request->title,
->  			
->  			'content' => $content,
->  			
->        'photo' => $nama_file,
->        
->  		]);
->
->     return back()->with('success' data masuk');
->      
->    }
->
+```php
+public function __construct()
+{
+  $this->middleware('auth');
+}
+
+public function create()
+{
+  return view('post');
+}
+
+public function store(Request $request)
+{
+  $validatedData = $request->validate([
+    'title' => 'required|max:225',
+    'content' => 'required',
+    'photo' => 'image|mimes:jpeg,png,jpg,gif|max:5408',
+  ]);
+
+  $id = Auth::user()->id;
+  $user = User::find($id);
+  $content = $request->content;
+  $photo = $request->file('photo');
+  $nama_file = time()."_".$photo->getClientOriginalName();
+  $tujuan_upload = 'feed';
+  $photo->move($tujuan_upload,$nama_file);
+
+  Post::create([
+    'user_id' => $id,
+    'title' => $request->title,
+    'content' => $content,
+    'photo' => $nama_file,        
+  ]);
+
+  return back()->with('success' data masuk');
+
+}
+```
 
 Setelah itu buatlah file post di dalam path views yang berisikan form untuk menginput data
 
 <figure>
-<img src="/Laravel-7-fundamental/20.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/20.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
->@extends('layouts.app')
->
->@section('content')
->
-><div class="container">
->
->  <form action="{{ route('post.buat') }}" method="post" enctype="multipart>/form-data">
->  
->    @csrf
->    
->    @method('post')
->    
->    <div class="form-group">
->    
->      <label for="exampleInputEmail1">Masukan judul</label>
->      
->      <input type="text" name="title" class="form-control" aria-describedby> ="emailHelp" placeholder="judull">
->      
->    </div>
->    
->    <div class="form-group">
->    
->      <label for="exampleInputEmail1">Masukan deksirpsi</label>
->      
->      <textarea type="text" name="content" rows="10" class="form-control" >aria-describedby="emailHelp" placeholder="deskripsi"></textarea>
->    </div>
->    
->    <div class="form-group">
->    
->      <label class="form-label" for="customFile">Upload file</label>
->      
->      <input type="file" name="photo" class="form-control" id="customFile" >/>
->    </div>
->    
->    <div class="form-check">
->    
->      <input type="checkbox" class="form-check-input" id="exampleCheck1">
->      
->      <label class="form-check-label" for="exampleCheck1">Check me out></label>
->      
->    </div>
->    
->    <button type="submit" class="btn btn-primary">Submit</button>
->    
->  </form>
->  
-> </div>
->
->@endsection
+{% raw  %}
+
+```php
+@extends('layouts.app')
+@section('content')
+<div class="container">
+  <form action="{{ route('post.buat') }}" method="post" enctype="multipart>/form-data">
+    @csrf
+    @method('post')
+    <div class="form-group">
+      <label for="exampleInputEmail1">Masukan judul</label>
+      <input type="text" name="title" class="form-control" aria-describedby> ="emailHelp" placeholder="judull">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Masukan deksirpsi</label>
+      <textarea type="text" name="content" rows="10" class="form-control" >aria-describedby="emailHelp" placeholder="deskripsi"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="customFile">Upload file</label>
+      <input type="file" name="photo" class="form-control" id="customFile" >/>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out></label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>  
+</div>
+@endsection
+```
+
+{% endraw  %}
+
 
 **Membuat routes**
 
 Buka path routes kemudian cari web.php setelah itu pahami kode di bawah ini
 
 <figure>
-<img src="/Laravel-7-fundamental/21.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/21.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
->Route::get('/', 'MenuController@index')->name('index');
->
->Route::get('/feed', 'MenuController@feed')->name('feed');
->
->Auth::routes(); //libaray auth dari laravel
->
->Route::get('/home', 'AdminController@index')->name('home');
->
->Route::get('/posting', 'AdminController@create')->name('post');
->
->Route::post('/posting/store', 'AdminController@store')->name('post.buat');
->
+```php
+Route::get('/', 'MenuController@index')->name('index');
+Route::get('/feed', 'MenuController@feed')->name('feed');
+Auth::routes(); //libaray auth dari laravel
+Route::get('/home', 'AdminController@index')->name('home');
+Route::get('/posting', 'AdminController@create')->name('post');
+Route::post('/posting/store', 'AdminController@store')->name('post.buat');
+```
 
 Di dalam kode di atas kira dapat menemukan 6 routes, routes berfungsi untuk mengatur jalannya url serta metode http request dari sebuah website kita, yang masing masing akan memiliki tujuan yang sudah kita buat
 
@@ -765,21 +697,21 @@ Jalankan laravel
 "php artisan serve"
 
 <figure>
-<img src="/Laravel-7-fundamental/hasil1.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/hasil1.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Okok, kita sudah masuk ke dalam dashboard user, kalian dapat membuat frontend yang lebih rapi lagi dan jos. Ini adalah tampilan sederhana yang saya buat, kemudian kita masuk ke dalam views post bagaimana caranya ? Cukup klik list dengan nama posting
 
 <figure>
-<img src="/Laravel-7-fundamental/hasil2.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/hasil2.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
 Berikut adalah tampilan form. Kemudian kita cek di dalam index apakah data sudah terlist keluar ? Mari kita lihat
 
 <figure>
-<img src="/Laravel-7-fundamental/hasil3.PNG" alt="laravel">
+<img src="/laravel-7-fundamental/hasil3.PNG" alt="laravel">
 <figcaption>Laravel 7 fundamental</figcaption>
 </figure>
 
