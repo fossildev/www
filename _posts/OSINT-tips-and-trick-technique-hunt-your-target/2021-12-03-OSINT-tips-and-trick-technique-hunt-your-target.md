@@ -1,15 +1,11 @@
 ---
-title: OSINT tips and trick technique hunt your target
+title: "OSINT tips and trick technique hunt your target"
 date: 2021-12-03 11:58:47 +07:00
 modified: 2021-12-03 11:58:47 +07:00
 author: Jieyab89 # penuilis [wajib]
 editor: Jieyab89 # penyunting [opsional]
-tags: [Hacking, OSINT]
-description: Hallo selamat datang kembali bersama saya Bayu Aji kali ini saya akan membagikan seputar teknik OSINT dan tips and trick nya. Okok, berbicara tentang OSINT sebenarnya ada dampak positif dan negatif untuk itu saya tidak mengajari Anda cara  membocorkan aib, identitas sesorang secara public. Lets do it
-
-
-Apakah di dalam artikel ini akan diajari cara menghindari serangan OSINT? Apa saja yang harus dipersiapkan? Okok akan saya bahas satu persatu, so baca dengan teliti ya
-
+tags: ["Hacking", "OSINT"]
+description: "Hallo selamat datang kembali bersama saya Bayu Aji kali ini saya akan membagikan seputar teknik OSINT dan tips and trick nya. Okok, berbicara tentang OSINT sebenarnya ada dampak positif dan negatif untuk itu saya tidak mengajari Anda cara  membocorkan aib, identitas sesorang secara public. Lets do it Apakah di dalam artikel ini akan diajari cara menghindari serangan OSINT? Apa saja yang harus dipersiapkan? Okok akan saya bahas satu persatu, so baca dengan teliti ya"
 image: "OSINT-tips-and-trick-technique-hunt-your-target/OSINT1.png"
 ---
 

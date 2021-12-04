@@ -5,18 +5,7 @@ modified: 2021-12-03 12:58:47 +07:00
 author: Jieyab89 # penuilis [wajib]
 editor: Jieyab89 # penyunting [opsional]
 tags: [Tips and trick]
-
-description: Hallo selamat datang kembali bersama saya Bayu Aji kali ini saya akan membagikan seputar tips tentang berselancar di internet. Jika teman - teman tidak ingin mudah di track. Ada beberapa hal yang perlu diperhatikan diantaranya
-
-
-1. Apa yang ingin kamu kunjungi?
-2. Apa yang ingin kamu cari?
-3. Apa yang ingin kamu lakukan?
-
-
-Okok, dari ketiga poin tersebut silahkan teman - teman bisa perhatikan. Teman - teman bisa sesuaikan kapan saatnya melakukan privasi dan kapan untuk biasa saja, paham yang saya maksudkan? Hehehehe
-Yoii setiap orang pasti melakukan kapan night vs midnight. Yuks bisa simak caranya di bawah ini
-
+description: "Hallo selamat datang kembali bersama saya Bayu Aji kali ini saya akan membagikan seputar tips tentang berselancar di internet. Jika teman - teman tidak ingin mudah di track. Ada beberapa hal yang perlu diperhatikan diantaranya 1. Apa yang ingin kamu kunjungi? 2. Apa yang ingin kamu cari? 3. Apa yang ingin kamu lakukan? Okok, dari ketiga poin tersebut silahkan teman - teman bisa perhatikan. Teman - teman bisa sesuaikan kapan saatnya melakukan privasi dan kapan untuk biasa saja, paham yang saya maksudkan? Hehehehe Yoii setiap orang pasti melakukan kapan night vs midnight. Yuks bisa simak caranya di bawah ini"
 image: "Tips-and-trick-berselancar-aman-secara-anonim/tor.png"
 ---
 
